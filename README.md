@@ -66,6 +66,27 @@ Topics covered:
 1.41: Tuples Operations
 1.42: Lists and tuples
 1.43: Comparing tuples
+1.44: Built-in Tuple Functions
+1.45: Dictionaries
+1.46: Accessing Values in Dictionary
+1.47: Updating Dictionary
+1.48: Looping and dictionaries
+1.49: Dictionaries and hash map
+1.50: Removing Key-Value Pairs
+1.51: A Dictionary in a Dictionary
+1.52: Functions
+1.53: Defining a Function
+1.54: Passing Arguments
+1.55: Return Values
+1.56: Classes
+1.57: Working with Classes and Instances
+1.58: Inheritance
+1.59: File handling
+1.60: Reading file
+1.61: Writing file
+1.62: Exceptions
+1.63: Async Python
+
 
 
 
