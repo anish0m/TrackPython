@@ -2,14 +2,13 @@ def testcase():
     # solution by anish0m
     n = int(input())
     english = set(map(int, input().split()))
-
     b = int(input())
     french = set(map(int, input().split()))
-    
-    st = english.intersection(french)
-    
+
+    st = english.difference(french)
+
     print(len(st))
-    return
+    return 
 
 
 

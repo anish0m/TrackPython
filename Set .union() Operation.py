@@ -1,12 +1,12 @@
 def testcase():
     #solution by anish0m
     n = int(input(""))
-    l_n=set(map(int , input("").split(" ")))
+    english = set(map(int , input("").split(" ")))
     
     b = int(input(""))
-    l_b=set(map(int , input("").split(" ")))
+    french=set(map(int , input("").split(" ")))
     
-    st = set(l_n.union(l_b))
+    st = set(english.union(french))
     output = 0
     
     for _ in st:
