@@ -21,10 +21,14 @@ def testcase():
     print(sum(st))
     return
 
+
+
 def main():
-    t = 1  # Single test case
+    t = 1
     for _ in range(t):
         testcase()
+
+
 
 if __name__ == "__main__":
     main()
