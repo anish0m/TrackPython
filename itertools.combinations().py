@@ -3,7 +3,7 @@ from itertools import combinations
 
 
 def testcase():
-    # solution by anish0
+    # solution by anish0m
     s, n = input().split()
 
     for i in range(1, int(n)+1):

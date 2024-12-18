@@ -1,14 +1,13 @@
-from itertools import permutations
+import calendar
 
 
 
 def testcase():
     # solution by anish0m
-    s, n = input().split()
+    m, d, y = list(map(int,input().split()))
+    D = calendar.weekday(y, m, d)
 
-    for x in sorted(permutations(s, int(n))):
-        print (''.join(x))
-
+    print((calendar.day_name[D]).upper())
     return
 
 

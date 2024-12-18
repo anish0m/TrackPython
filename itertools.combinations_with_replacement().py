@@ -3,7 +3,7 @@ import itertools
 
 
 def testcase():
-    # solution by anish0
+    # solution by anish0m
     s, n = input().split()
 
     C = list(itertools.combinations_with_replacement(sorted(s), int(n)))
